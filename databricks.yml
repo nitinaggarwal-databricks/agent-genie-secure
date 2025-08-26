@@ -1,0 +1,13 @@
+# This is a Databricks asset bundle definition for fastapi-dbx-app-with-tests.
+# The Databricks extension requires databricks.yml configuration file.
+# See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
+
+bundle:
+  name: fastapicmsapp
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://e2-demo-field-eng.cloud.databricks.com
