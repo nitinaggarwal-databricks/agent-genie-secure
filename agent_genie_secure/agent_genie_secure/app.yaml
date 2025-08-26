@@ -1,0 +1,14 @@
+work_dir: /Workspace/Users/nitin.aggarwal@databricks.com/fastapi_adt_genie_app
+command: [
+  "uvicorn",
+  "app:app",
+  "--host",
+  "127.0.0.1",
+  "--port",
+  "8000"
+]
+env:
+  - name: "SPACE_ID"
+    value: "01f03de6df76113387ccc36242e6c804"
+  - name: "SERVING_ENDPOINT_NAME"
+    value: "databricks-gpt-oss-120b"
